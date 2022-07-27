@@ -1,0 +1,16 @@
+cd "copy folder path"
+git config --global user.name (your name)
+git config --global user.email (your email)
+//u can also rewwrite by again using this command
+touch .gitignore (touch will create .gitignore file in current directory)
+git init
+git add .
+git commit -m "Initial commit"
+git status (just to see the working)
+git remote add origin git@github.com:alihassan69/food-ordering-system.git(use SSH link from reppository)
+$ git push origin master(if project is not private it will push)
+$ ssh-keygen -t ed25519 -C "alihasssan743@gmail.com"
+cat (path to id_ed.pub) (add this key to gthuhb)
+git remote add origin (ssh url.git)
+git push origin master
+ 
